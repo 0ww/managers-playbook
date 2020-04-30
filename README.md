@@ -48,7 +48,7 @@ Heuristics for effective management.
 1. Ensure every report is aware of the top priorities of the team, organization and company.
 1. Be the example. Only preach what you practice.
 1. No task is beneath a manager. Get your hands dirty even if it's not coding:
-    <img src="images/non-coding-contributions.jpg" width="400">
+    <img src="images/non-coding-contributions.png" width="400">
 
 
 ## One on ones
@@ -89,11 +89,12 @@ Heuristics for effective management.
         1. I need feedback. What are two things that I can do differently?
         1. What's one thing we could do to improve our way of collaborating?
     1. Priorities:
-        1. "What are your top priorities this week?"
-        1. "What will success look like?"
-        1. "What are obstacles?"
-1. Encourage your direct reports to bring up topics in 1-1.  
+        1. What are your top priorities this week?
+        1. What will success look like?
+        1. What are obstacles?
+1. Encourage your direct reports to bring up topics in 1-1:  
     <img src="images/1_1s.jpg" width="400">  
+1. See [getting more from your one on ones](https://medium.com/@sbourke/getting-more-from-your-1-1s-8f71996e286e) by [sbourke](https://medium.com/@sbourke) for more thoughts on effective one on ones.
 
 
 ## Coaching
@@ -139,12 +140,13 @@ Heuristics for effective management.
     - "I like when you take initiative in cleaning up code because it shows initiative and ownership."
     - "It's great to see you teach X about Y so that they're. That's a positive trait of a senior engineer."
 1. Replay instinctive reactions to help frame the conversation:  
-    <img src="images/replay-instinctive-reactions.png" width="400">
+    <img src="images/replay-instinctive-reactions.png" width="400">  
+    from [The Feedback Fallacy](https://hbr.org/2019/03/the-feedback-fallacy)
 
 
 ## Thinking strategically
 
-1. What would you do with more one person?
+1. What would you do with one more person?
 1. How is your team moving the needle? Are you focusing on the right things? How do you know the features you're building will benefit the customer?
 1. What are your product's mission and tenets?
 1. What are the company's top priorities this year? Where should the company be three years from now?
@@ -288,6 +290,7 @@ Onboarding material:
 1. https://github.com/charlax/engineering-management: Great collection of management articles.
 1. https://medium.com/@radoshi/hiring-engineering-leaders-ca55a87db204: Hiring engineering leaders.
 1. https://erikbern.com/2020/01/13/how-to-hire-smarter-than-the-market-a-toy-model.html: Berkson's paradox and engineering hiring.
-1. https://lifelabslearning.com/. Great workshop for new and experienced managers.
+1. https://lifelabslearning.com/. Great workshop for new and experienced managers. I learned a lot from it on feedback, coaching and 1-1s.
 1. https://blog.newrelic.com/technology/hiring-software-engineering-managers-interview/
 1. [The Feedback Fallacy](https://hbr.org/2019/03/the-feedback-fallacy): focus on replaying positive performance so team members know how to repeat excellence.
+1. [Getting more from your one on ones](https://medium.com/@sbourke/getting-more-from-your-1-1s-8f71996e286e) by [sbourke](https://medium.com/@sbourke)
