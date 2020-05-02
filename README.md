@@ -92,9 +92,9 @@ Heuristics for effective management.
         1. What are your top priorities this week?
         1. What will success look like?
         1. What are obstacles?
-1. Encourage your direct reports to bring up topics in 1-1:  
+1. Encourage your direct reports to bring up topics:  
     <img src="images/1_1s.jpg" width="400">  
-1. See [getting more from your one on ones](https://medium.com/@sbourke/getting-more-from-your-1-1s-8f71996e286e) by [sbourke](https://medium.com/@sbourke) for more thoughts on effective one on ones.
+1. See [getting more from your one on ones](https://medium.com/@sbourke/getting-more-from-your-1-1s-8f71996e286e) for more thoughts on effective one on ones.
 
 
 ## Coaching
@@ -105,7 +105,7 @@ Heuristics for effective management.
     - Respond with "What are your thoughts so far?" when asked "What should I do?"
 1. Summarize what the person is saying so you're both on the same page and are pinpointing the problem.
     -  "It sounds like there are two issues, x and y. Which should we focus on first?"
-1. Figure out how to make this meeting productive.
+1. Figure out how to make the meeting productive:
     - "What's the next step?"
     - "How should we track this?"
 
@@ -119,7 +119,7 @@ Heuristics for effective management.
 1. Don't "pad" negative feedback by beginning with compliments - it gives mixed signals.
 1. Be specific even if it's positive feedback.
     - "Good job!"  ⛔️
-    - "I like the initiative you took to reduce the service's memory footprint. It shows ownership and leadership."
+    - "I like the initiative you took to reduce the service's memory footprint. It shows ownership."
 1. Focus on data and not behavior:
     - "I noticed you didn't address any of the comments made in your last three PRs"
     - "I noticed that you didn't pick up the ticket I asked you to do"
@@ -137,8 +137,8 @@ Heuristics for effective management.
     - "What are a couple of actions you could take right now?"
     - "What are our action items?"
 1. Highlight positive patterns (remember to be specific).
-    - "I like when you take initiative in cleaning up code because it shows initiative and ownership."
-    - "It's great to see you teach X about Y so that they're. That's a positive trait of a senior engineer."
+    - "I like it when you take initiative in cleaning up code because it shows ownership."
+    - "It's great to see you teach X about Y so that they're as proficient as you. That's a trait of a senior engineer."
 1. Replay instinctive reactions to help frame the conversation:  
     <img src="images/replay-instinctive-reactions.png" width="400">  
     from [The Feedback Fallacy](https://hbr.org/2019/03/the-feedback-fallacy)
@@ -151,9 +151,10 @@ Heuristics for effective management.
 1. What are your product's mission and tenets?
 1. What are the company's top priorities this year? Where should the company be three years from now?
 1. What are your "rocks" and "pebble" projects this quarter?
-1. What pillars is your team driving and in what way?
+1. What company annual goals is your team driving and in what way?
+1. If you were to get promoted, who from your team would take your place? What skills or experience does this person need to acquire?
 1. What are your team's pain points? How can you move 2x faster?
-1. What "dogs not barking" do you worry about? What are areas in your team you worry about?
+1. What ["dogs not barking"](http://www.mikepope.com/blog/AddComment.aspx?blogid=2392) do you worry about?
 
 
 ## Making decisions
@@ -192,7 +193,8 @@ Avoid coding in the critical path. [Tips](https://charity.wtf/2019/01/04/enginee
 ## Ticket and PR process
 
 1. Set contributing guidelines for the team.
-1. PRs should always be prioritized. Aim for review SLA of 1 hour.
+1. PRs should small enough to be properly reviewed in under an hour.
+1. Prioritize PRs to unblock tickets.
 1. Automate opinions like style with linting or code formatters like [black](https://github.com/ambv/black).
 
 
@@ -202,7 +204,7 @@ Avoid coding in the critical path. [Tips](https://charity.wtf/2019/01/04/enginee
 1. Encourage proposals to be written as Amazon-style ["6 pagers" and "2 pagers"](https://medium.com/@inowland/using-6-page-and-2-page-documents-to-make-organizational-decisions-3216badde909).  
     <img src="images/write-like-an-amazonian.jpg" width="400">  
 1. Always end a meeting with actions, owners and timing, so it's clear what next steps are.
-1. For staff meetings, go around the table and asking reports what their biggest concerns are.  
+1. For staff meetings, go around the table and ask reports what their biggest concerns are.  
     > Many managers want to attend executive staff meetings, as it makes them feel needed and puts them in the know. I made use of this desire by setting a price of admission to the meeting: you had to fess up to at least one thing that was 'on fire.'" - Horowitz
 
 
@@ -246,24 +248,31 @@ What to watch out for:
 
 Having a good onboarding process is crucial to the success of your team and new team members. It ensures team members are contributing as early as possible and are assimilated into your processes and culture.
 
-An onboarding process is successful if your new team member can contribute a bug fix on the first day of joining.
+An onboarding process is successful if your new team member can contribute a bug fix on their first day of joining.
 
 Onboarding material:
 1. Team mission
     1. How is your team moving the needle for the customer?
 1. Team members
+    1. Include: name, role/title, email, slack handle, github handle
 1. Repositories and services
-1. Documentation:
+1. How to communicate within the team
+    1. Slack channels
+    1. Keeping yourself informed
+    1. Communication protocols during and outside of business hours
+1. Documentation
     1. Code contributing guidelines
-    1. Ticketing process. E.g. label and story pointing guidelines.
-    1. Glossary of terms.
-    1. Releasing code.
+    1. PR review process
+    1. Ticketing process
+    1. Glossary of terms
+    1. Releasing code
     1. How tos (e.g. migrate database, add secrets)
-1. Getting started:
+1. Getting started
     1. Installation instructions (e.g. Docker, postgres).
-    1. Getting the right accesses (e.g. PagerDuty).
-    1. Running your apps locally.
-1. Meeting setups. Who should your new team member meet with?
+    1. A checklist of all the accesses (e.g. AWS, PagerDuty)
+    1. Running your apps locally
+    1. Deploying your first bug fix
+1. Meetings. Who should your new team member meet with?
 
 
 ## Announcing change
@@ -277,7 +286,8 @@ Onboarding material:
     1. What metrics will this change achieve?
 1. Socialize the change to get buy in.
     1. Start with the people who it affects the most.
-
+1. Examples:
+    1. [Carta's covid-19 layoff](https://medium.com/@henrysward/cartas-covid-19-layoff-cbb80e3e8a5d)
 
 ## Further reading
 
@@ -287,10 +297,10 @@ Onboarding material:
 1. [The Pendulum or the Ladder](https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/): On the challenges of being a manager who wants to stay technical.
 1. [Hard Thing About Hard Things](https://www.amazon.com/Hard-Thing-About-Things-Building-ebook/dp/B00DQ845EA): More on the executive-level side but still worthwhile.
 1. [What You Do Is Who You Are](https://www.amazon.com/What-You-Do-Who-Are/dp/0062871331): Why company culture matters and how to establish one.
-1. https://github.com/charlax/engineering-management: Great collection of management articles.
-1. https://medium.com/@radoshi/hiring-engineering-leaders-ca55a87db204: Hiring engineering leaders.
-1. https://erikbern.com/2020/01/13/how-to-hire-smarter-than-the-market-a-toy-model.html: Berkson's paradox and engineering hiring.
-1. https://lifelabslearning.com/. Great workshop for new and experienced managers. I learned a lot from it on feedback, coaching and 1-1s.
-1. https://blog.newrelic.com/technology/hiring-software-engineering-managers-interview/
+1. [Engineering Management Repo](https://github.com/charlax/engineering-management): Great collection of management articles.
+1. [Hiring Engineering Leaders](https://medium.com/@radoshi/hiring-engineering-leaders-ca55a87db204): Hiring engineering leaders.
+1. [How to Hire Smarter than the Market](https://erikbern.com/2020/01/13/how-to-hire-smarter-than-the-market-a-toy-model.html): Berkson's paradox and engineering hiring.
+1. [LifeLabs Learning](https://lifelabslearning.com). Great workshop for new and experienced managers. I learned a lot from it on feedback, coaching and 1-1s.
+1. [How Software Engineers Can Help Interview Their Future Managers](https://blog.newrelic.com/technology/hiring-software-engineering-managers-interview): A list of questions for engineers to ask interviewing managers.
 1. [The Feedback Fallacy](https://hbr.org/2019/03/the-feedback-fallacy): focus on replaying positive performance so team members know how to repeat excellence.
 1. [Getting more from your one on ones](https://medium.com/@sbourke/getting-more-from-your-1-1s-8f71996e286e) by [sbourke](https://medium.com/@sbourke)
